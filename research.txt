@@ -1,0 +1,47 @@
+Capacitive touch:
+https://www.hackster.io/sridhar-rajagopal/portable-capacitive-touch-piano-2c38e9
+https://www.best-microcontroller-projects.com/arduino-capacitive-sensor.html
+
+Gecko
+https://www.silabs.com/mcu/32-bit-microcontrollers/efm32-gecko
+
+TI:
+https://www.ti.com/lit/an/slaa338a/slaa338a.pdf
+https://www.ti.com/microcontrollers-mcus-processors/microcontrollers/overview.html
+
+NXP:
+https://www.nxp.com/files-static/training_pdf/WBNR_8BIT_TOUCHSENSING.pdf
+https://www.nxp.com/docs/en/data-sheet/KL46P121M48SF4.pdf
+https://www.nxp.com/products/product-selector:PRODUCT-SELECTOR#/category/c731
+https://www.nxp.com/docs/en/data-sheet/KL43P64M48SF6.pdf
+
+ATTiny85
+micronucleus bootloade
+https://www.microchip.com/en-us/product/ATtiny85
+https://gitlab.com/nonchip/tinystick
+5v tolerent, has adc, and can do usb1.1 without a crystal
+8k/0.5k/0.5k
+
+
+ATmega16U2:
+pros:
+5v compliant/tolerent
+USB programmer/bootloader
+cons:
+Needs an external crystal to function with USB
+
+STM32:
+pros:
+No crystal USB
+cons:
+2-3.6 only (not 5v, so we need a regulator)
+
+USB stack info:
+https://www.obdev.at/articles/implementing-usb-1.1-in-firmware.html
+https://www.obdev.at/products/vusb/index.html
+https://www.obdev.at/products/vusb/license.html
+https://www.eevblog.com/forum/microcontrollers/how-do-you-write-a-usb-stack/
+https://github.com/therealdreg/lufa-sdcard-mass-storagekeyboard-fatfs-AT90USBKEY2
+LUFA
+
+
